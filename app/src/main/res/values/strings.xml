@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="html_text"><![CDATA[<font color="red">Карсный текст</font>]]></string>
+    <string name="scale_animator">Scale animator</string>
+    <string name="anim">Anim animator</string>
+    <string name="colorButton">Color btn</string>
+</resources>
