@@ -25,7 +25,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
         android:text="@string/anim"
-        app:layout_constraintTop_toTopOf="@id/scaleAnimatorButton" />
+        app:layout_constraintTop_toBottomOf="@id/scaleAnimatorButton" />
 
     <Button
         android:id="@+id/colorButton"
@@ -36,6 +36,18 @@
         android:layout_marginEnd="50dp"
         android:background="@color/test"
         android:text="@string/colorButton"
-        app:layout_constraintTop_toTopOf="@id/simpleAnimButton" />
+        app:layout_constraintTop_toBottomOf="@id/simpleAnimButton" />
+
+    <Button
+        android:id="@+id/NinePatchesButton"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/nine_patch_button"
+        android:stateListAnimator="@animator/scale_animator"
+        android:text="@string/ninePatchesButton"
+        app:layout_constraintTop_toBottomOf="@id/colorButton" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
